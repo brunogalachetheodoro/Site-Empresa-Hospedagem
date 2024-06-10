@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+header {
+    background-color: #1f2a33;
+    display:block;
+}
+
+nav > ul > li {
+    display: inline;
+    padding-left: 10px;
+    padding-bottom: 15px;
+
+}
+
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.loginbotao {
+    background-color: #4aaf4a;
+    padding:8px;
+    border-radius: 5px;
+}
+
+.loginbotao:hover {
+    background-color: white;
+    color: #4aaf4a;
+    transition: 0.7s;
+}
+
+.imagemsection {
+    background-image: url(../imagens/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+body > section {
+    color: white;
+    text-align: center;
+    
+}
+
+body > section > h1 {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.alinhamentotexto {
+
+}
