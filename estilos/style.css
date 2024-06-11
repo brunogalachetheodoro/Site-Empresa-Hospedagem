@@ -11,12 +11,11 @@ html, body {
     padding-bottom: 10px;
 }
 
-header {
+.classheader {
     background-color: #1f2a33;
     display:block;
 }
-
-nav > ul > li {
+li {
     display: inline;
     padding-left: 10px;
     padding-bottom: 15px;
@@ -48,13 +47,13 @@ nav > ul > li > a {
     height: 300px;
 }
 
-body > section {
+.classsection {
     color: white;
     text-align: center;
     
 }
 
-body > section > h1 {
+h1 {
     font-weight: bolder;
     font-size: 35px;
 }
