@@ -2,7 +2,10 @@
 
 html, body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 ;
+    padding: 0;
 }
+
 
 .logo {
     width: 50px;
@@ -53,11 +56,117 @@ nav > ul > li > a {
     
 }
 
+/* Informações */
+
 h1 {
     font-weight: bolder;
     font-size: 35px;
 }
 
-.alinhamentotexto {
+.estiloh3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
 
+.estilop {
+    display: flex;
+    text-align: center;
+    color: rgb(146, 146, 146);
+}
+
+
+.divinformacoes {
+    border: 1px solid black;
+    width: 250px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    padding: 50px;
+}
+
+
+.icone1 {
+    color: #359c35;
+}
+
+.icone2 {
+    color: red;
+}
+
+.icone3 {
+    color: rgb(255, 166, 0);
+}
+
+/* Planos e preços*/
+
+.estiloh2 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+}
+
+.estilop2 {
+display: flex;
+text-align: center;
+}
+
+.estilosection {
+
+}
+
+
+
+.divcompreco {
+    background-color: #51db51;
+    color: white;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -20px;
+} 
+
+
+
+.divh2preco {
+    display: flex;
+    background-color: #1f2a33;
+    color: white;
+    font-weight: bolder;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: auto;
+}
+
+.informacaopreco {
+    background-color: lightgray;
+    width: 200px;
+    margin: auto;    
+    text-align: center;
+
+}
+.espacotexto {
+    line-height: 50px;
+}
+
+.botaoverde {
+    text-align: center;
+    background-color: #51db51 ;
+    height: 50px;
+    width: 200px;
 }
