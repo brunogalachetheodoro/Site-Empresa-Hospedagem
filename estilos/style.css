@@ -59,9 +59,12 @@ nav > ul > li > a {
     line-height: 50px;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
+
+.color {
+    background-color: #1f2a33;
+} 
 
 /* Informações */
 
@@ -85,6 +88,11 @@ h1 {
     align-items: center;
     text-align: center;    
     justify-content: center;
+    text-shadow: 1px 1px 5px black;
+}
+
+.h1info {
+    font-family: 60px;
 }
 
 .estilop {
