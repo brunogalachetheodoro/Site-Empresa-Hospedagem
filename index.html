@@ -12,7 +12,7 @@
 <body>
     <header class="classheader">
         <img src="imagens/logo.png" alt="logo" class="logo">
-        <nav>
+        <nav class="navestilo">
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">PLANOS</a></li>
@@ -78,26 +78,28 @@
                 </a>
             </div>
         </section>
-        <section>
-            <h1>Buscar um domínio</h1>
-            <p>Veja se o domínio que você deseja está disponível</p>
+        <section class="estilodominio">
+            <h1 class="estiloh1">Buscar um domínio</h1>
+            <p class="estilopcinza">Veja se o domínio que você deseja está disponível</p>
             <form action="">
                     <input type="text" name="dominio" id="dominio" placeholder="Digite seu domínio aqui">
-                    <input type="button" value="Buscar Domínio">
+                        <div class="botaoverde" ><input  class="estilobotao" type="button" id="buscar" value="Buscar Domínio"></div>
             </form>
         </section>
         <section>
-            <h1>Entre em contato</h1>
-            <p>Mande uma mensagem para nós conversarmos sobre a melhor hospedagem para seu negócio</p>
+            <h1 class="estiloh2">Entre em contato</h1>
+            <p class="estilop2">Mande uma mensagem para nós conversarmos sobre a melhor hospedagem para seu negócio</p>
             <form action="">
-                <input type="text" name="nome" id="nome" placeholder="Seu nome">
-                <input type="email" name="email" id="email" placeholder="Seu e-mail">
-                <input type="text" name="texto" id="texto">
-                <input type="button" value="Enviar">
+                <div class="formestilo">
+                    <input class="estiloform" type="text" name="nome" id="nome" placeholder="Seu nome">
+                    <input class="estiloform" type="email" name="email" id="email" placeholder="Seu e-mail">
+                </div>
+                <input type="text" name="texto" id="texto" placeholder="Digite sua mensagem">
+                <input type="button" value="Enviar" class="botaoverde" id="botaoenviar">
             </form>
         </section>
-        <footer>
-            <p>Bruno Theodoro 2024</p>
+        <footer class="classfooter">
+            <p>Bruno Theodoro - 2024</p>
         </footer>
 </body>
 </html>

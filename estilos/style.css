@@ -16,8 +16,9 @@ html, body {
 
 .classheader {
     background-color: #1f2a33;
-    display:flex;
 }
+
+
 
 li {
     display: inline;
@@ -25,7 +26,12 @@ li {
     padding-bottom: 15px;
 }
 
-
+.navestilo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;    
+}
 
 nav > ul > li > a {
     text-decoration: none;
@@ -46,7 +52,7 @@ nav > ul > li > a {
 }
 
 .imagemsection {
-    background-image: url(../imagens/background.jpg);
+    background-image: url(../imagens/background.jpg) ;
     background-position: top;
     background-size: cover;
     height: 300px;
@@ -131,12 +137,15 @@ h1 {
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
-    padding: 50px;
+    padding-top: 50px;
+
 }
 
 .estilop2 {
 display: flex;
 text-align: center;
+padding: 20px;
+color: #818181;
 }
 
 .estilosection {
@@ -156,8 +165,8 @@ text-align: center;
     border-radius: 50%;
     display: flex;
     margin-top: 20px;
-    margin-bottom: -20px;
-} 
+    margin-bottom: -20px; 
+}
 
 
 
@@ -195,6 +204,11 @@ text-align: center;
     align-items: center;
     justify-content: center;
     font-weight: bolder;
+
+}
+
+.botaoverde:hover {
+    cursor: pointer;
 }
 
 a {
@@ -203,3 +217,105 @@ a {
     font-weight: bolder;
 }
 
+/* Buscar dominio */
+
+.estilodominio {
+    background-color: #1f2a33;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.estiloh1 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.estilopcinza {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+#dominio {
+    display: flex;
+    margin: auto;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#buscar {
+    background-color: #51db51;
+    border-style: none;
+    display: flex;
+    margin: auto;
+    height: 40px;
+    width: 105px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Formulário */
+.formestilo {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.estiloform {
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+div.formestilo > input#nome {
+    width: 41%;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+
+}
+
+div.formestilo > input#email {
+    width: 41%;
+    height: 40px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+input#texto {
+    width: 87%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+
+#texto::placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#botaoenviar {
+    border-style: none;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Footer */
+
+.classfooter {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #818181;
+
+}
